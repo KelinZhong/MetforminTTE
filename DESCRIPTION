@@ -1,0 +1,31 @@
+Package: metforminTTE
+Title: Propensity-Matched Target Trial Emulation of Metformin Use
+Version: 0.1.0
+Authors@R:
+    c(
+      person("Kelin", "Zhong", email = "kelinzhonguconn@gmail.com", role = c("aut", "cre")),
+      person("Chia-Ling", "Kuo", email = "kuo@uchc.edu", role = "aut")
+    )
+Description: Propensity-score-matched target trial emulation for matched-pair
+    pharmacoepidemiology studies. Provides staged construction of matched
+    cohorts, intention-to-treat and per-protocol analysis strategies,
+    competing-risk outcome models with cluster-robust standard errors,
+    false-discovery-rate adjustment, and forest plot output.
+Depends: R (>= 4.2)
+Imports:
+    data.table (>= 1.12.8),
+    survival (>= 3.0),
+    digest (>= 0.6.0),
+    crrSC (>= 1.1.2),
+    forestploter (>= 1.1.3),
+    stats,
+    utils,
+    tools,
+    grDevices,
+    graphics
+URL: https://github.com/KelinZhong/MetforminTTE
+BugReports: https://github.com/KelinZhong/MetforminTTE/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
